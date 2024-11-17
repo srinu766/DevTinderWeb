@@ -35,7 +35,7 @@ const Connections = () => {
       {connections.map((connection) => {
         const {_id, firstName, lastName, age, gender, about, photoUrl} = connection
         return (
-          <div key={_id} className=" flex  m-4 p-4 border rounded-lg bg-base-200 w-1/2 mx-auto">
+          <div key={_id} className=" flex  m-4 p-4 border rounded-lg bg-base-200 w-full md:w-1/2 mx-auto">
           <div>
             <img alt="photo" className="w-20 h-20 rounded-full" src={photoUrl} />
             </div>

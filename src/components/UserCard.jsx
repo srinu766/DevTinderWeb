@@ -24,9 +24,9 @@ const UserCard = ({ user }) => {
 
   return (
     <div className="card bg-base-300 w-96 shadow-xl ">
-      <figure>
+      <figure className="mt-10">
         <img
-          className="rounded-full"
+          className="rounded-full h-40 w-40 "
           src={
             photoUrl
               ? photoUrl

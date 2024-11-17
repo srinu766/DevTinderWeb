@@ -44,8 +44,8 @@ const Requests = () => {
   if (requests.length === 0)
     return <h1 className="flex justify-center my-10">No requests found!</h1>;
   return (
-    <div className="text-center justify-center  my-10">
-      <h1 className="text-bold text-white text-3xl">Connections Requests</h1>
+    <div className="text-center justify-centermy-10">
+      <h1 className="text-bold text-white text-3xl ">Connections Requests</h1>
       {Array.isArray(requests) &&
         requests.map((request) => {
           const { _id, firstName, lastName, age, gender, about, photoUrl } =
@@ -53,7 +53,7 @@ const Requests = () => {
           return (
             <div
               key={_id}
-              className="flex justify-between items-center m-4 p-4 border rounded-lg bg-base-200 w-full mx-auto"
+              className="flex justify-between items-center m-4 p-4 border rounded-lg bg-base-200 w-full md:w-1/2  mx-auto"
             >
               <div>
                 <img
@@ -77,7 +77,7 @@ const Requests = () => {
                   Reject
                 </button>
                 <button
-                  className="btn btn-secondary mx-2"
+                  className="btn btn-secondary mx-2 my-1"
                   onClick={() => reviewRequest("accepted", request._id)}
                 >
                   Accept
