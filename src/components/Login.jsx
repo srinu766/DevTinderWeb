@@ -208,7 +208,7 @@ const Login = () => {
                 type="text"
                 value={firstName}
                 className="input input-bordered w-full"
-                placeholder="Enter your first name"
+                placeholder="First Name"
                 onChange={(e) => setFirstName(e.target.value)}
               />
             </div>
@@ -220,7 +220,7 @@ const Login = () => {
                 type="text"
                 value={lastName}
                 className="input input-bordered w-full"
-                placeholder="Enter your last name"
+                placeholder="Last Name"
                 onChange={(e) => setLastName(e.target.value)}
               />
             </div>
@@ -234,7 +234,7 @@ const Login = () => {
             type="email"
             value={emailId}
             className="input input-bordered w-full"
-            placeholder="Enter your email"
+            placeholder="Email"
             onChange={(e) => setEmailId(e.target.value)}
           />
         </div>
@@ -246,7 +246,7 @@ const Login = () => {
             type="password"
             value={password}
             className="input input-bordered w-full"
-            placeholder="Enter your password"
+            placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
@@ -278,3 +278,4 @@ const Login = () => {
 };
 
 export default Login;
+ 

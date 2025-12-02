@@ -45,3 +45,17 @@ Body
     Route=/login => Login
     Route=/connections => Connections
     Route=/profile => Profile
+
+
+
+
+# Sheduling cron job in node js
+- Install node-cron
+- Learning about cron jobs - crontab.guru
+- schedule a job to run every 5 minutes
+- date-fns
+- Find all the unique users 
+- send the connection request to all the users
+- explore bulk email sending
+- make email sending dynamic
+- bee-queue & bull npm packages

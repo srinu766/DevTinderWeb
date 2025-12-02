@@ -162,6 +162,14 @@ const NavBar = () => {
         Requests
       </Link>
     </li>
+    <li>
+      <Link
+        to="/premium"
+        className="justify-between hover:bg-gray-100 rounded-md"
+      >
+        Premium
+      </Link>
+    </li>
     <li
       onClick={handleLogout}
       className="hover:bg-red-100 text-red-600 font-bold rounded-md"
